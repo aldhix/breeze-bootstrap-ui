@@ -8,25 +8,25 @@ Perfect if you want to quickly set up Laravel Breeze + Bootstrap without extra c
 
 ## 🚀 Installation
 
-1. Install Laravel Breeze (if not installed yet):
+### 1. Install Laravel Breeze (if not installed yet):
 
 ```bash
 composer require laravel/breeze --dev
 php artisan breeze:install
 ```
 
-2. Install this package:
+### 2. Install this package:
 
 `composer require aldhix/breeze-bootstrap-ui`
 
-3. Run the artisan command to replace the default Breeze views with Bootstrap-based views:
+### 3. Run the artisan command to replace the default Breeze views with Bootstrap-based views:
 
 `php artisan breeze-bootstrap-ui:install`
 
 This command will overwrite the default Breeze views with Bootstrap versions.
 Use `--force` if you want to overwrite existing files.
 
-4. Remove Tailwind CSS
+### 4. Remove Tailwind CSS
 
 Since this package uses Bootstrap 5, you should remove Tailwind to avoid conflicts:
 
