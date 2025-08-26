@@ -1,10 +1,14 @@
 # Breeze Bootstrap UI for Laravel Breeze
 
-This package provides **Bootstrap 5 UI** for Laravel Breeze (Blade only), making it easier to use Breeze with a modern and responsive frontend.
+This package provides **Bootstrap 5 UI** for Laravel Breeze (Blade only), making it easier to scaffold authentication views with a modern and responsive frontend.
+
+**Minimum Requirements:**
+
+- PHP: ^8.2
+- Laravel Framework: ^12.0
+- Laravel Breeze: ^2.3
 
 Perfect if you want to quickly set up Laravel Breeze + Bootstrap without extra configuration.
-
----
 
 ## 🚀 Installation
 
