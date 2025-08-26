@@ -26,6 +26,26 @@ php artisan breeze:install
 This command will overwrite the default Breeze views with Bootstrap versions.
 Use `--force` if you want to overwrite existing files.
 
+4. Remove Tailwind CSS
+
+Since this package uses Bootstrap 5, you should remove Tailwind to avoid conflicts:
+
+```
+# Remove Tailwind CSS packages
+npm uninstall tailwindcss postcss autoprefixer
+
+# Delete Tailwind config files if exist
+rm tailwind.config.js postcss.config.js
+```
+
+Open your main CSS file (usually `resources/css/app.css`) and remove:
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 ## 📦 Features
 
 - Full Bootstrap 5 integration for Laravel Breeze
