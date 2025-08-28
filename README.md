@@ -23,14 +23,8 @@ php artisan breeze:install
 
 `composer require aldhix/breeze-bootstrap-ui`
 
-### 3. Run the artisan command to replace the default Breeze views with Bootstrap-based views:
 
-`php artisan breeze-bootstrap-ui:install`
-
-This command will overwrite the default Breeze views with Bootstrap versions.
-Use `--force` if you want to overwrite existing files.
-
-### 4. Remove Tailwind CSS
+### 3. Remove Tailwind CSS
 
 Since this package uses Bootstrap 5, you should remove Tailwind to avoid conflicts:
 
@@ -49,6 +43,19 @@ Open your main CSS file (usually `resources/css/app.css`) and remove:
 @tailwind components;
 @tailwind utilities;
 ```
+
+### 4. Run the artisan command to replace the default Breeze views with Bootstrap-based views:
+
+`php artisan breeze-bootstrap-ui:install --force`
+
+This command will overwrite the default Breeze views with Bootstrap versions.
+Use `--force` if you want to overwrite existing files.
+
+## 📺 Tutorial Video
+
+For a step-by-step guide, check out the YouTube tutorial here:
+
+[Watch on YouTube](https://youtu.be/kn1MiWU0tdc?si=VU8WCCe2hRYHP-AL) ✅
 
 ## 📦 Features
 
